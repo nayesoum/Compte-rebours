@@ -1,0 +1,69 @@
+/* body*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Flexbox  */
+.flex { display: flex; }
+.flex-direction-column {flex-direction: column;}
+.flex-justify-center { justify-content: center; }
+.flex-align-center { align-items: center; }
+.flex-justify-between { justify-content: space-between; }
+.flex-justify-around { justify-content: space-around; }
+.flex-justify-center { justify-content: center; }
+.flex-justify-center { justify-content: center; }
+.flex-justify-end { justify-content: flex-end; }
+
+.title{
+    display: flex;
+    justify-content: center
+}
+h1{
+    color: white;
+}
+section{
+    /*svg background images/dragon-scales.svg*/
+    
+    background-image: url("https://images.pexels.com/photos/2526105/pexels-photo-2526105.jpeg?auto=compress&cs=tinysrgb&w=1200"); 
+    filter: blur(2.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vh;
+    
+
+}
+
+/* main*/
+span{
+    color: white;
+    font-size: 3vh;
+    margin-left: 10vh;
+}
+.bloc{
+    margin-left: 2,5vh;
+
+}
+#timer{
+    
+    margin-top: 25vh;
+    width: 50vh;
+    height: 30vh;
+    display: flex;
+    margin-left: 7vh;
+}
+
+.card {
+    color: white;
+    height: 20vh;
+    width: 15vh;
+    font-size: 10vh;
+    border: solid;
+    border-radius: 2vh;
+    margin-left: 5vh;
+    align-items: center;
+    
+}
